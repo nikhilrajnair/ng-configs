@@ -21,9 +21,12 @@
   ],
   "author": "Nikhil Raj Ainchooran",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nikhilrajnair/ng-configs.git"
+    "url": "git+https://github.com/nikhilrajnair/ng-configs.git"
   },
   "peerDependencies": {
     "@angular-eslint/eslint-plugin": "^18.0.0",
