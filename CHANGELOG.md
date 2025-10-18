@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/nikhilrajnair/ng-configs/compare/v1.0.1...v1.0.2) (2025-10-18)
+
+
+### Bug Fixes
+
+* change to unscoped package name ([5fd2f3d](https://github.com/nikhilrajnair/ng-configs/commit/5fd2f3de8a067381cbd42def8737ba706945f818))
+
 ## [1.0.1](https://github.com/nikhilrajnair/ng-configs/compare/v1.0.0...v1.0.1) (2025-10-18)
 
 
