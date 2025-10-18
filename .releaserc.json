@@ -2,7 +2,6 @@
   "branches": [
     "main"
   ],
-  "repositoryUrl": "https://github.com/nikhilrajnair/ng-configs.git",
   "plugins": [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
