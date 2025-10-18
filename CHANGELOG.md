@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/nikhilrajnair/ng-configs/compare/v1.0.0...v1.0.1) (2025-10-18)
+
+
+### Bug Fixes
+
+* add publishConfig access public for scoped package ([b050947](https://github.com/nikhilrajnair/ng-configs/commit/b050947797a17218244bdfc0c1f0d04390768676))
+
 # 1.0.0 (2025-10-18)
 
 
