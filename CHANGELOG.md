@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/nikhilrajnair/ng-configs/compare/v1.0.2...v1.1.0) (2025-10-18)
+
+
+### Features
+
+* enhance stylelint config to support both CSS and SCSS with recess-order ([c9dbc86](https://github.com/nikhilrajnair/ng-configs/commit/c9dbc86362dce25a293eb8075cb3c51e35873aca))
+
 ## [1.0.2](https://github.com/nikhilrajnair/ng-configs/compare/v1.0.1...v1.0.2) (2025-10-18)
 
 
