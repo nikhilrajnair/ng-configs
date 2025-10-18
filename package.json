@@ -1,5 +1,5 @@
 {
-  "name": "angular-linting-configs",
+  "name": "ng-configs",
   "version": "1.0.0",
   "description": "Shareable linting configurations (ESLint, Prettier, Stylelint) for Angular projects",
   "main": "index.js",
@@ -23,7 +23,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nikhilrajnair/angular-linting-configs.git"
+    "url": "https://github.com/nikhilrajnair/ng-configs.git"
   },
   "peerDependencies": {
     "@angular-eslint/eslint-plugin": "^18.0.0",

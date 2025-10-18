@@ -7,7 +7,7 @@ Shareable linting configurations for Angular projects, including ESLint, Prettie
 Install this package along with its peer dependencies:
 
 ```bash
-npm install --save-dev angular-linting-configs \
+npm install --save-dev ng-configs \
   @angular-eslint/eslint-plugin@^18.0.0 \
   @angular-eslint/eslint-plugin-template@^18.0.0 \
   @angular-eslint/template-parser@^18.0.0 \
@@ -28,7 +28,7 @@ Create or update your `.eslintrc.js` file in your Angular project:
 
 ```javascript
 module.exports = {
-  extends: ['./node_modules/angular-linting-configs/eslint.config.js'],
+  extends: ['./node_modules/ng-configs/eslint.config.js'],
   // Override or add your custom rules here
   rules: {
     // Your custom rules
@@ -40,7 +40,7 @@ Alternatively, you can use `.eslintrc.json`:
 
 ```json
 {
-  "extends": ["./node_modules/angular-linting-configs/eslint.config.js"],
+  "extends": ["./node_modules/ng-configs/eslint.config.js"],
   "rules": {
     // Your custom rules
   }
@@ -53,7 +53,7 @@ Create a `.prettierrc.js` file in your Angular project:
 
 ```javascript
 module.exports = {
-  ...require('angular-linting-configs/prettier.config.js'),
+  ...require('ng-configs/prettier.config.js'),
   // Override or add your custom options here
   // printWidth: 120,
 };
@@ -63,7 +63,7 @@ Or use `.prettierrc.json`:
 
 ```json
 {
-  "extends": ["angular-linting-configs/prettier.config.js"]
+  "extends": ["ng-configs/prettier.config.js"]
 }
 ```
 
@@ -71,7 +71,7 @@ Or reference it directly in `package.json`:
 
 ```json
 {
-  "prettier": "angular-linting-configs/prettier.config.js"
+  "prettier": "ng-configs/prettier.config.js"
 }
 ```
 
@@ -81,7 +81,7 @@ Create a `stylelint.config.js` file in your Angular project:
 
 ```javascript
 module.exports = {
-  extends: ['angular-linting-configs/stylelint.config.js'],
+  extends: ['ng-configs/stylelint.config.js'],
   // Override or add your custom rules here
   rules: {
     // Your custom rules
@@ -93,7 +93,7 @@ Or use `.stylelintrc.json`:
 
 ```json
 {
-  "extends": ["angular-linting-configs/stylelint.config.js"],
+  "extends": ["ng-configs/stylelint.config.js"],
   "rules": {
     // Your custom rules
   }
@@ -139,7 +139,7 @@ Example of overriding ESLint rules:
 
 ```javascript
 module.exports = {
-  extends: ['./node_modules/angular-linting-configs/eslint.config.js'],
+  extends: ['./node_modules/ng-configs/eslint.config.js'],
   rules: {
     '@angular-eslint/component-selector': [
       'error',
