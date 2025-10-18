@@ -1,5 +1,5 @@
 {
-  "name": "ng-configs",
+  "name": "@nikhilrajnair/ng-configs",
   "version": "1.0.2",
   "description": "Shareable linting configurations (ESLint, Prettier, Stylelint) for Angular projects",
   "main": "index.js",
