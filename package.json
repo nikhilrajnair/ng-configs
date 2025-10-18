@@ -8,9 +8,7 @@
     "index.js"
   ],
   "scripts": {
-    "prepublishOnly": "echo 'Running prepublish checks...'",
-    "version": "npm version",
-    "publish": "npm publish"
+    "semantic-release": "semantic-release"
   },
   "keywords": [
     "angular",
@@ -21,7 +19,7 @@
     "config",
     "shareable-config"
   ],
-  "author": "",
+  "author": "Nikhil Raj Ainchooran",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -42,5 +40,11 @@
   "engines": {
     "node": ">=18.0.0",
     "npm": ">=9.0.0"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^11.0.6",
+    "semantic-release": "^24.2.9"
   }
 }
